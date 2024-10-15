@@ -1,5 +1,7 @@
+package experiment1.src.main.java;
+
 public final class BubbleSortUntilNoChange<T extends Comparable<T>> implements Sorter<T> {
-	
+
 	public void sort(final T[] items) {
 		boolean changed;
 		do {
@@ -14,5 +16,5 @@ public final class BubbleSortUntilNoChange<T extends Comparable<T>> implements S
 			}
 		} while (changed);
 	}
-	
+
 }

@@ -1,11 +1,13 @@
+package experiment1.src.main.java;
+
 public final class QuickSortGPT<T extends Comparable<T>> implements Sorter<T> {
-	
-	public void sort(final T[] items) {
-		if (items == null || items.length == 0) {
+
+    public void sort(final T[] items) {
+        if (items == null || items.length == 0) {
             return;
         }
         quickSort(items, 0, items.length - 1);
-	}
+    }
 
     private static <T extends Comparable<T>> void quickSort(T[] array, int low, int high) {
         if (low < high) {
@@ -29,7 +31,7 @@ public final class QuickSortGPT<T extends Comparable<T>> implements Sorter<T> {
         swap(array, i + 1, high);
         return i + 1;
     }
-	
+
     private static <T> void swap(T[] array, int i, int j) {
         T temp = array[i];
         array[i] = array[j];
