@@ -1,5 +1,8 @@
 package experiment1.src.main.java;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -159,219 +162,226 @@ public class SortingExperimentBB {
         Integer[] randomData100 = new Integer[100];
         Integer[] randomData1000 = new Integer[1000];
         Integer[] randomData10000 = new Integer[10000];
-        Integer[] randomData100000 = new Integer[100000];
+        // Integer[] randomData100000 = new Integer[100000];
         // Array to contain all the datasets
-        Integer[][] datasetsBySize = { randomData100, randomData1000, randomData10000, randomData100000 };
+        // Integer[][] datasetsBySize = { randomData100, randomData1000,
+        // randomData10000, randomData100000 };
+        Integer[][] datasetsBySize = { randomData100, randomData1000, randomData10000 };
 
         // Long datasets
         Long[] randomData100L = new Long[100];
         Long[] randomData1000L = new Long[1000];
         Long[] randomData10000L = new Long[10000];
-        Long[] randomData100000L = new Long[100000];
+        // Long[] randomData100000L = new Long[100000];
         // Array to contain all the datasets
-        Long[][] datasetsBySizeL = { randomData100L, randomData1000L, randomData10000L, randomData100000L };
+        // Long[][] datasetsBySizeL = { randomData100L, randomData1000L,
+        // randomData10000L, randomData100000L };
+        Long[][] datasetsBySizeL = { randomData100L, randomData1000L, randomData10000L };
 
         // Float datasets
         Float[] randomData100F = new Float[100];
         Float[] randomData1000F = new Float[1000];
         Float[] randomData10000F = new Float[10000];
-        Float[] randomData100000F = new Float[100000];
+        // Float[] randomData100000F = new Float[100000];
         // Array to contain all the datasets
-        Float[][] datasetsBySizeF = { randomData100F, randomData1000F, randomData10000F, randomData100000F };
+        // Float[][] datasetsBySizeF = { randomData100F, randomData1000F,
+        // randomData10000F, randomData100000F };
+        Float[][] datasetsBySizeF = { randomData100F, randomData1000F, randomData10000F };
 
         // Double datasets
         Double[] randomData100D = new Double[100];
         Double[] randomData1000D = new Double[1000];
         Double[] randomData10000D = new Double[10000];
-        Double[] randomData100000D = new Double[100000];
+        // Double[] randomData100000D = new Double[100000];
         // Array to contain all the datasets
-        Double[][] datasetsBySizeD = { randomData100D, randomData1000D, randomData10000D, randomData100000D };
+        // Double[][] datasetsBySizeD = { randomData100D, randomData1000D,
+        // randomData10000D, randomData100000D };
+        Double[][] datasetsBySizeD = { randomData100D, randomData1000D, randomData10000D };
 
-        // loop over the algorithms
-        // then loop over the datasets by size
-        // then loop over the datasets by type
-        // then loop over the sortedness levels
-        for (Sorter sorter : algorithms) {
-            System.out.println("Experiment with " + sorter.getClass().getSimpleName());
-            // First we loop over all the Integer arrays
-            System.out.println("Integer datasets");
-            for (Integer[] dataset : datasetsBySize) {
-                // Now we generate the random data
-                System.out.println("Random data");
-                generateRandomData(dataset);
-                // Now we measure the time
-                // We run the sorting algo multiple times to get an average
-                long time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
+        try (FileWriter fileWriter = new FileWriter("sorting_experiment_results.csv");
+                PrintWriter printWriter = new PrintWriter(fileWriter)) {
 
-                // Now we generate the reversed data
-                System.out.println("Reversed data");
-                generateReversedData(dataset);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
+            // Write the CSV file header
+            printWriter.println("Algorithm,DataType,DataSize,Sortedness,Time(ns)");
 
-                // Now we generate the first k sorted data
-                System.out.println("First k sorted data");
-                generateFirstKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
+            // loop over the algorithms
+            // then loop over the datasets by size
+            // then loop over the datasets by type
+            // then loop over the sortedness levels
+            for (Sorter sorter : algorithms) {
+                String algorithmName = sorter.getClass().getSimpleName();
+                System.out.println("Experiment with " + algorithmName);
 
-                // Now we generate the last k sorted data
-                System.out.println("Last k sorted data");
-                generateLastKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
+                // First we loop over all the Integer arrays
+                System.out.println("Integer datasets");
+                for (Integer[] dataset : datasetsBySize) {
+                    int dataSize = dataset.length;
+
+                    // Random data
+                    System.out.println("Random data");
+                    generateRandomData(dataset);
+                    long time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Integer,%d,Random,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Reversed data
+                    System.out.println("Reversed data");
+                    generateReversedData(dataset);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Integer,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
+
+                    // First k sorted data
+                    System.out.println("First k sorted data");
+                    generateFirstKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Integer,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Last k sorted data
+                    System.out.println("Last k sorted data");
+                    generateLastKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Integer,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
                 }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
+
+                System.out.println("Long datasets");
+                // Now we loop over all the Long arrays
+                for (Long[] dataset : datasetsBySizeL) {
+                    int dataSize = dataset.length;
+
+                    // Random data
+                    System.out.println("Random data");
+                    generateRandomData(dataset);
+                    long time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Long,%d,Random,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Reversed data
+                    System.out.println("Reversed data");
+                    generateReversedData(dataset);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Long,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
+
+                    // First k sorted data
+                    System.out.println("First k sorted data");
+                    generateFirstKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Long,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Last k sorted data
+                    System.out.println("Last k sorted data");
+                    generateLastKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Long,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
+                }
+
+                System.out.println("Float datasets");
+                // Now we loop over all the Float arrays
+                for (Float[] dataset : datasetsBySizeF) {
+                    int dataSize = dataset.length;
+
+                    // Random data
+                    System.out.println("Random data");
+                    generateRandomData(dataset);
+                    long time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Float,%d,Random,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Reversed data
+                    System.out.println("Reversed data");
+                    generateReversedData(dataset);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Float,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
+
+                    // First k sorted data
+                    System.out.println("First k sorted data");
+                    generateFirstKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Float,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Last k sorted data
+                    System.out.println("Last k sorted data");
+                    generateLastKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Float,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
+                }
+
+                System.out.println("Double datasets");
+                // Now we loop over all the Double arrays
+                for (Double[] dataset : datasetsBySizeD) {
+                    int dataSize = dataset.length;
+
+                    // Random data
+                    System.out.println("Random data");
+                    generateRandomData(dataset);
+                    long time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Double,%d,Random,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Reversed data
+                    System.out.println("Reversed data");
+                    generateReversedData(dataset);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Double,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
+
+                    // First k sorted data
+                    System.out.println("First k sorted data");
+                    generateFirstKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Double,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
+
+                    // Last k sorted data
+                    System.out.println("Last k sorted data");
+                    generateLastKSortedData(dataset, dataset.length / 2);
+                    time = 0;
+                    for (int i = 0; i < 10; i++) {
+                        time += measureExecutionTime(sorter, dataset);
+                    }
+                    printWriter.printf("%s,Double,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
+                }
             }
-
-            System.out.println("Long datasets");
-            // Now we loop over all the Long arrays
-            for (Long[] dataset : datasetsBySizeL) {
-                // Now we generate the random data
-                System.out.println("Random data");
-                generateRandomData(dataset);
-                // Now we measure the time
-                // We run the sorting algo multiple times to get an average
-                long time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the reversed data
-                System.out.println("Reversed data");
-                generateReversedData(dataset);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the first k sorted data
-                System.out.println("First k sorted data");
-                generateFirstKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the last k sorted data
-                System.out.println("Last k sorted data");
-                generateLastKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-            }
-
-            System.out.println("Float datasets");
-            // Now we loop over all the Float arrays
-            for (Float[] dataset : datasetsBySizeF) {
-                // Now we generate the random data
-                System.out.println("Random data");
-                generateRandomData(dataset);
-                // Now we measure the time
-                // We run the sorting algo multiple times to get an average
-                long time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the reversed data
-                System.out.println("Reversed data");
-                generateReversedData(dataset);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the first k sorted data
-                System.out.println("First k sorted data");
-                generateFirstKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the last k sorted data
-                System.out.println("Last k sorted data");
-                generateLastKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-            }
-
-            System.out.println("Double datasets");
-            // Now we loop over all the Double arrays
-            for (Double[] dataset : datasetsBySizeD) {
-                // Now we generate the random data
-                System.out.println("Random data");
-                generateRandomData(dataset);
-                // Now we measure the time
-                // We run the sorting algo multiple times to get an average
-                long time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the reversed data
-                System.out.println("Reversed data");
-                generateReversedData(dataset);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the first k sorted data
-                System.out.println("First k sorted data");
-                generateFirstKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-
-                // Now we generate the last k sorted data
-                System.out.println("Last k sorted data");
-                generateLastKSortedData(dataset, dataset.length / 2);
-                // Now we measure the time
-                time = 0;
-                for (int i = 0; i < 10; i++) {
-                    time += measureExecutionTime(sorter, dataset);
-                }
-                System.out.println("Size " + dataset.length + " time: " + time / 10 + " ns");
-            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
