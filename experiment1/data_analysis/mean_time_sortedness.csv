@@ -1,0 +1,17 @@
+Algorithm,Sortedness,Time(ns)
+BubbleSortUntilNoChange,FirstKSorted,91074922.195
+BubbleSortUntilNoChange,LastKSorted,45841402.31916667
+BubbleSortUntilNoChange,Random,109651703.21916667
+BubbleSortUntilNoChange,Reversed,100447627.90416667
+BubbleSortWhileNeeded,FirstKSorted,63296075.623333335
+BubbleSortWhileNeeded,LastKSorted,25018521.753333334
+BubbleSortWhileNeeded,Random,81964438.25083333
+BubbleSortWhileNeeded,Reversed,72100438.57583334
+QuickSortGPT,FirstKSorted,3176328.5616666665
+QuickSortGPT,LastKSorted,45580105.045833334
+QuickSortGPT,Random,373397.49333333335
+QuickSortGPT,Reversed,53173005.4275
+SelectionSortGPT,FirstKSorted,37258086.424166664
+SelectionSortGPT,LastKSorted,37149934.64666667
+SelectionSortGPT,Random,37664029.1875
+SelectionSortGPT,Reversed,37867036.70916667

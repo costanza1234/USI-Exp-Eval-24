@@ -1,0 +1,13 @@
+Algorithm,DataSize,Time(ns)
+BubbleSortUntilNoChange,100,24416.5
+BubbleSortUntilNoChange,1000,2166375.0
+BubbleSortUntilNoChange,10000,242105792.0
+BubbleSortWhileNeeded,100,19333.0
+BubbleSortWhileNeeded,1000,1392396.0
+BubbleSortWhileNeeded,10000,168264125.0
+QuickSortGPT,100,18625.0
+QuickSortGPT,1000,394541.5
+QuickSortGPT,10000,34503500.0
+SelectionSortGPT,100,24666.0
+SelectionSortGPT,1000,1384875.0
+SelectionSortGPT,10000,108985479.5

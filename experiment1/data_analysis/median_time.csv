@@ -1,0 +1,17 @@
+Algorithm,DataType,Time(ns)
+BubbleSortUntilNoChange,Double,3381146.0
+BubbleSortUntilNoChange,Float,3387979.0
+BubbleSortUntilNoChange,Integer,1464916.5
+BubbleSortUntilNoChange,Long,2166375.0
+BubbleSortWhileNeeded,Double,2683646.0
+BubbleSortWhileNeeded,Float,2184417.0
+BubbleSortWhileNeeded,Integer,985833.0
+BubbleSortWhileNeeded,Long,1381437.5
+QuickSortGPT,Double,712688.0
+QuickSortGPT,Float,755791.5
+QuickSortGPT,Integer,464604.0
+QuickSortGPT,Long,634208.0
+SelectionSortGPT,Double,1841333.0
+SelectionSortGPT,Float,1417833.0
+SelectionSortGPT,Integer,580979.0
+SelectionSortGPT,Long,692916.5
