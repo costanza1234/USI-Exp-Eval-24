@@ -6,32 +6,22 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Random;
 
+/*
+ * Hypothesis 1: Independent variable = sorting algorithm used.
+ * Dependent variable = time taken to sort the array.
+ * Counfounding variables = size of the array, sortedness level of the array
+ * 
+ * Hypothesis 2: Independent variable = sortedness level of the array.
+ * Dependent variable = time taken to sort the array.
+ * Counfounding variables = sorting algorithm used, size of the array,
+ * sortedness level of the array
+ * 
+ * Hypothesis 3: Independent variable = size of the array.
+ * Dependent variable = time taken to sort the array.
+ * Counfounding variables = sorting algorithm used, size of the array,
+ * sortedness level of the array
+ */
 public class SortingExperimentBB {
-
-    /*
-     * Hypothesis 1: Independent variable = sorting algorithm used.
-     * Dependent variable = time taken to sort the array.
-     * Counfounding variables = size of the array, sortedness level of the array
-     * 
-     * Hypothesis 2: Independent variable = sortedness level of the array.
-     * Dependent variable = time taken to sort the array.
-     * Counfounding variables = sorting algorithm used, size of the array,
-     * sortedness level of the array
-     * 
-     * Hypothesis 3: Independent variable = size of the array.
-     * Dependent variable = time taken to sort the array.
-     * Counfounding variables = sorting algorithm used, size of the array,
-     * sortedness level of the array
-     */
-
-    // Initialize sorting algorithms
-    private static Sorter[] algorithms = {
-            new BubbleSortUntilNoChange(),
-            new BubbleSortWhileNeeded(),
-            new QuickSortGPT(),
-            new SelectionSortGPT()
-    };
-
     /*
      * Function to measure the execution time of a given sorting algorithm on a
      * given dataset.
@@ -155,6 +145,15 @@ public class SortingExperimentBB {
      * of the datasets
      */
     public static void main(String[] args) {
+        // Here we initialize an array of all the sorting algorithms we want to test
+        // They are all extending the type Sorter
+        Sorter[] algorithms = {
+                new BubbleSortUntilNoChange(),
+                new BubbleSortWhileNeeded(),
+                new QuickSortGPT(),
+                new SelectionSortGPT()
+        };
+
         // First we initialize the different types of datasets
         // the possible sizes are 100, 1000, 10000, 100000
 
@@ -210,7 +209,7 @@ public class SortingExperimentBB {
             // then loop over the sortedness levels
             for (Sorter sorter : algorithms) {
                 String algorithmName = sorter.getClass().getSimpleName();
-                System.out.println("Experiment with " + algorithmName);
+                System.out.println("-------------------Experiment with " + algorithmName);
 
                 // First we loop over all the Integer arrays
                 System.out.println("Integer datasets");
@@ -221,37 +220,34 @@ public class SortingExperimentBB {
                     System.out.println("Random data");
                     generateRandomData(dataset);
                     long time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Integer,%d,Random,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Integer,%d,Random,%d%n", algorithmName, dataSize, time / 10);
 
                     // Reversed data
                     System.out.println("Reversed data");
                     generateReversedData(dataset);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Integer,%d,Reversed,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Integer,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
 
                     // First k sorted data
                     System.out.println("First k sorted data");
                     generateFirstKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Integer,%d,FirstKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Integer,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
 
                     // Last k sorted data
                     System.out.println("Last k sorted data");
                     generateLastKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Integer,%d,LastKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Integer,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
                 }
 
                 System.out.println("Long datasets");
@@ -263,37 +259,34 @@ public class SortingExperimentBB {
                     System.out.println("Random data");
                     generateRandomData(dataset);
                     long time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Long,%d,Random,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Long,%d,Random,%d%n", algorithmName, dataSize, time / 10);
 
                     // Reversed data
                     System.out.println("Reversed data");
                     generateReversedData(dataset);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Long,%d,Reversed,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Long,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
 
                     // First k sorted data
                     System.out.println("First k sorted data");
                     generateFirstKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Long,%d,FirstKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Long,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
 
                     // Last k sorted data
                     System.out.println("Last k sorted data");
                     generateLastKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Long,%d,LastKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Long,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
                 }
 
                 System.out.println("Float datasets");
@@ -305,37 +298,34 @@ public class SortingExperimentBB {
                     System.out.println("Random data");
                     generateRandomData(dataset);
                     long time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Float,%d,Random,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Float,%d,Random,%d%n", algorithmName, dataSize, time / 10);
 
                     // Reversed data
                     System.out.println("Reversed data");
                     generateReversedData(dataset);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Float,%d,Reversed,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Float,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
 
                     // First k sorted data
                     System.out.println("First k sorted data");
                     generateFirstKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Float,%d,FirstKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Float,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
 
                     // Last k sorted data
                     System.out.println("Last k sorted data");
                     generateLastKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Float,%d,LastKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Float,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
                 }
 
                 System.out.println("Double datasets");
@@ -347,37 +337,34 @@ public class SortingExperimentBB {
                     System.out.println("Random data");
                     generateRandomData(dataset);
                     long time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Double,%d,Random,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Double,%d,Random,%d%n", algorithmName, dataSize, time / 10);
 
                     // Reversed data
                     System.out.println("Reversed data");
                     generateReversedData(dataset);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Double,%d,Reversed,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Double,%d,Reversed,%d%n", algorithmName, dataSize, time / 10);
 
                     // First k sorted data
                     System.out.println("First k sorted data");
                     generateFirstKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Double,%d,FirstKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Double,%d,FirstKSorted,%d%n", algorithmName, dataSize, time / 10);
 
                     // Last k sorted data
                     System.out.println("Last k sorted data");
                     generateLastKSortedData(dataset, dataset.length / 2);
-                    time = 0;
-                    for (int i = 0; i < 10; i++) {
-                        time += measureExecutionTime(sorter, dataset);
+                    for (int i = 0; i < 100; i++) {
+                        time = measureExecutionTime(sorter, dataset);
+                        printWriter.printf("%s,Double,%d,LastKSorted,%d%n", algorithmName, dataSize, time);
                     }
-                    printWriter.printf("%s,Double,%d,LastKSorted,%d%n", algorithmName, dataSize, time / 10);
                 }
             }
         } catch (IOException e) {
