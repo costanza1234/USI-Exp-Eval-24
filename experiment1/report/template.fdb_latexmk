@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1731177600 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731177604
-  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731177595 18744 00034e2d017b7d42db5d820fd57fd596 ""
+["pdflatex"] 1731179788 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731179793
+  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731179784 15955 c05f686ad3815e4f6ebc510fa30ff6be ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -84,6 +84,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1644269979 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575674187 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty" 1636758526 12892 3ffe092fc7f5d1cb9866f1bcb071d0d6 ""
@@ -99,9 +100,9 @@
   "fig/hip1.png" 1731176010 84279 f18690cf5ae4823ab7353a66ff3de46f ""
   "fig/hip2.png" 1731176010 75900 557dee71fe4e57be045cd3dbc303ed16 ""
   "fig/hip3.png" 1731176010 80242 7779636479fc505aaa9a4c0f23e476d8 ""
-  "template.aux" 1731177603 8034 1665cf7c06afe05264f3419a251452bf "pdflatex"
+  "template.aux" 1731179792 8034 afe9f4c07cd45c948f9eab04985477e9 "pdflatex"
   "template.out" 0 -1 0 "pdflatex"
-  "template.tex" 1731177595 18744 00034e2d017b7d42db5d820fd57fd596 ""
+  "template.tex" 1731179784 15955 c05f686ad3815e4f6ebc510fa30ff6be ""
   (generated)
   "template.aux"
   "template.log"
