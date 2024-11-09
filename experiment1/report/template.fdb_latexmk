@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1731173072 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/src/main/java/report/template.tex" "template.pdf" "template" 1731173074
-  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/src/main/java/report/template.tex" 1731173068 9867 285d405f7361ca4db5d93a7c5ab484d2 ""
+["pdflatex"] 1731175536 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731175539
+  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731175535 18809 2802eb66318efec881705349b5313259 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -52,6 +52,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty" 1622581934 2894 55431114fc0e491ecee275edafd6c881 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1604871679 8609 8ac7db65d9617618cf703bd16c1bd0b8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty" 1604871679 18237 5cbdfe9ef383a557f780a0a1f45cdb1c ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty" 1646774737 21361 67512b0642debcd4503e59fcbbb767f1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -81,6 +82,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575674187 9715 b051d5b493d9fe5f4bc251462d039e5f ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty" 1636758526 12892 3ffe092fc7f5d1cb9866f1bcb071d0d6 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
@@ -88,9 +90,14 @@
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "CI_logo.png" 1731169950 132503 52be2a1f8c28e7de7e3e4a6d0b5674c7 ""
   "assignment.sty" 1731169950 1752 b13aaabfe1ecf5469b65456c3b38f370 ""
-  "template.aux" 1731173074 6899 f9ad3a2eb63bd60b07a58f26a5d4651a "pdflatex"
+  "fig/factors.png" 1731175431 470235 7e0cc5d0a55caf81b17dfc21bfd0f3ca ""
+  "fig/hip1-nonLog.png" 1731168624 42826 f832d2be236bd6a947886730ef478f3f ""
+  "fig/hip1.png" 1731168624 46671 6170b834b0af36caf446042b93dfea10 ""
+  "fig/hip2.png" 1731168624 42551 214814586f9cd52b6d8812cb248ac1b0 ""
+  "fig/hip3.png" 1731168624 45614 6ee7ac29f6b100b659a6b07d3d241020 ""
+  "template.aux" 1731175539 8323 f392f5e8c4c536d8418d192b4bc9ccf3 "pdflatex"
   "template.out" 0 -1 0 "pdflatex"
-  "template.tex" 1731173068 9867 285d405f7361ca4db5d93a7c5ab484d2 ""
+  "template.tex" 1731175535 18809 2802eb66318efec881705349b5313259 ""
   (generated)
   "template.aux"
   "template.log"
