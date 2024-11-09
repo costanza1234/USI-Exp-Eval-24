@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.21)  9 NOV 2024 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.21)  9 NOV 2024 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -415,37 +415,38 @@ Overfull \hbox (20.11185pt too wide) in paragraph at lines 102--103
  []
 
 [2] [3 <./fig/factors.png>]
-<./fig/hip1.png, id=46, 722.7pt x 433.62pt>
+<./fig/hip1.png, id=46, 730.6497pt x 553.5882pt>
 File: ./fig/hip1.png Graphic file (type png)
 <use ./fig/hip1.png>
 Package pdftex.def Info: ./fig/hip1.png  used on input line 155.
-(pdftex.def)             Requested size: 375.57779pt x 225.34474pt.
+(pdftex.def)             Requested size: 375.57779pt x 284.56471pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
-<./fig/hip1-nonLog.png, id=49, 722.7pt x 433.62pt>
+[4 <./fig/hip1.png>]
+<./fig/hip1-nonLog.png, id=61, 719.0865pt x 553.5882pt>
 File: ./fig/hip1-nonLog.png Graphic file (type png)
 <use ./fig/hip1-nonLog.png>
 Package pdftex.def Info: ./fig/hip1-nonLog.png  used on input line 165.
-(pdftex.def)             Requested size: 375.57779pt x 225.34474pt.
-[4 <./fig/hip1.png>]
+(pdftex.def)             Requested size: 375.57779pt x 289.14302pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
 
-<./fig/hip2.png, id=63, 722.7pt x 433.62pt>
+<./fig/hip2.png, id=63, 730.6497pt x 532.6299pt>
 File: ./fig/hip2.png Graphic file (type png)
 <use ./fig/hip2.png>
 Package pdftex.def Info: ./fig/hip2.png  used on input line 177.
-(pdftex.def)             Requested size: 375.57779pt x 225.34474pt.
-<./fig/hip3.png, id=65, 722.7pt x 433.62pt>
+(pdftex.def)             Requested size: 375.57779pt x 273.79137pt.
+<./fig/hip3.png, id=65, 730.6497pt x 535.5207pt>
 File: ./fig/hip3.png Graphic file (type png)
 <use ./fig/hip3.png>
 Package pdftex.def Info: ./fig/hip3.png  used on input line 187.
-(pdftex.def)             Requested size: 375.57779pt x 225.34474pt.
-[5 <./fig/hip1-nonLog.png> <./fig/hip2.png>]
+(pdftex.def)             Requested size: 375.57779pt x 275.27736pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
@@ -470,28 +471,28 @@ Overfull \hbox (54.16579pt too wide) in alignment at lines 208--274
  [] [] [] [] [] [] [] [] 
  []
 
-[6 <./fig/hip3.png>]
+[5 <./fig/hip1-nonLog.png>] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
-[7] [8] (./template.aux)
+[7] [8 <./fig/hip2.png> <./fig/hip3.png>] (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11590 strings out of 478268
- 209329 string characters out of 5846347
- 682559 words of memory out of 5000000
- 29627 multiletter control sequences out of 15000+600000
+ 11588 strings out of 478268
+ 209309 string characters out of 5846347
+ 685559 words of memory out of 5000000
+ 29626 multiletter control sequences out of 15000+600000
  475558 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,7n,106p,10665b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on template.pdf (8 pages, 651856 bytes).
+Output written on template.pdf (8 pages, 721130 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1731175536 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731175539
-  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731175535 18809 2802eb66318efec881705349b5313259 ""
+["pdflatex"] 1731176023 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731176028
+  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731176022 18615 73363478153c86eba87715bef994b194 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -91,13 +91,13 @@
   "CI_logo.png" 1731169950 132503 52be2a1f8c28e7de7e3e4a6d0b5674c7 ""
   "assignment.sty" 1731169950 1752 b13aaabfe1ecf5469b65456c3b38f370 ""
   "fig/factors.png" 1731175431 470235 7e0cc5d0a55caf81b17dfc21bfd0f3ca ""
-  "fig/hip1-nonLog.png" 1731168624 42826 f832d2be236bd6a947886730ef478f3f ""
-  "fig/hip1.png" 1731168624 46671 6170b834b0af36caf446042b93dfea10 ""
-  "fig/hip2.png" 1731168624 42551 214814586f9cd52b6d8812cb248ac1b0 ""
-  "fig/hip3.png" 1731168624 45614 6ee7ac29f6b100b659a6b07d3d241020 ""
-  "template.aux" 1731175539 8323 f392f5e8c4c536d8418d192b4bc9ccf3 "pdflatex"
+  "fig/hip1-nonLog.png" 1731176010 65803 ad69266e90b9a6090315d360c0c7117b ""
+  "fig/hip1.png" 1731176010 84279 f18690cf5ae4823ab7353a66ff3de46f ""
+  "fig/hip2.png" 1731176010 75900 557dee71fe4e57be045cd3dbc303ed16 ""
+  "fig/hip3.png" 1731176010 80242 7779636479fc505aaa9a4c0f23e476d8 ""
+  "template.aux" 1731176028 8033 2eae3f057d22cd3d3325078a7557f85e "pdflatex"
   "template.out" 0 -1 0 "pdflatex"
-  "template.tex" 1731175535 18809 2802eb66318efec881705349b5313259 ""
+  "template.tex" 1731176022 18615 73363478153c86eba87715bef994b194 ""
   (generated)
   "template.aux"
   "template.log"
