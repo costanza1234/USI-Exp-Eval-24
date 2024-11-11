@@ -88,7 +88,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
     \end{itemize}
 
     \newpage 
-    
+
     \subsection{Apparatus and Materials}
 
     The experiment was conducted on a MacBook Air with an M1 chip, 8GB of RAM, running macOS Sequoia 15.1. The programming language used was OpenJDK 21.0.4, with VSCode version 1.92.1 as the integrated development environment (IDE). To ensure consistency and minimize interference, no other user processes were running in the background during the experiment.
@@ -153,7 +153,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
         \label{fig:hip1}
     \end{figure}
 
-    In Figure \ref{fig:hip1}, we show the relationship between the level of sortedness of the input data and the running time of the sorting algorithm. The x-axis represents the level of sortedness, while the y-axis (in logarithmic scale)represents the time in nanoseconds. The graph shows that the running time increases as the level of sortedness decreases. The relationship is also evident with the y-axis in linear scale, as shown in Figure \ref{fig:hip1_linear}.\\
+    In Figure \ref{fig:hip1}, we show the relationship between the level of sortedness of the input data and the running time of the sorting algorithm. The x-axis represents the level of sortedness, while the y-axis (in logarithmic scale) represents the time in nanoseconds. The relationship is also presented with the y-axis in linear scale, as shown in Figure \ref{fig:hip1_linear}.\\
     \hfill
 
     \begin{figure}[htbp]
@@ -163,7 +163,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
         \label{fig:hip1_linear}
     \end{figure}
 
-    In Figure \ref{fig:hip2}, we show the relationship between the size of the dataset and the running time of the sorting algorithm. The x-axis represents the size of the dataset, while the y-axis (in logarithmic scale) represents the time in nanoseconds. The graph shows that the running time increases as the size of the dataset increases. The relationship is more evident in the logarithmic scale.\\
+    In Figure \ref{fig:hip2}, we show the relationship between the size of the dataset and the running time of the sorting algorithm. The x-axis represents the size of the dataset, while the y-axis (in logarithmic scale) represents the time in nanoseconds.
 \hfill
 
 
@@ -176,7 +176,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
 \end{figure}
 
 
-    In Figure \ref{fig:hip3}, we show the relationship between the data type of the elements in the dataset and the running time of the sorting algorithm. The x-axis represents the data type, while the y-axis (in logarithmic scale) represents the time in nanoseconds. The graph shows that the running time varies across different data types, with Double (8B) having the highest running time. The relationship is more evident in the logarithmic scale.\\
+    In Figure \ref{fig:hip3}, we show the relationship between the data type of the elements in the dataset and the running time of the sorting algorithm. The x-axis represents the data type, while the y-axis (in logarithmic scale) represents the time in nanoseconds.\\
 \hfill
         \begin{figure}[htbp]
             \centering
@@ -289,7 +289,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
     \begin{enumerate}
         \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and \ref{fig:hip1_linear} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT.
 
-        \item Hypothesis 2: \textit{The size of the dataset impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip2} we observe that overall, all the algorithms perform better with smaller arrays, which makes sense because there is less data to process. What seems to be the most relevant finding here is that QuickSortGPT is particularly faster compared to the others with large datasets.
+        \item Hypothesis 2: \textit{The size of the dataset impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip2} we observe that overall, all the algorithms perform better with smaller arrays: the running time increases as the size of the dataset increases. This can be expected as there is less data to process in smaller arrays. What seems to be the most relevant finding here is that QuickSortGPT seems to be significantly faster compared to the others with large datasets.
 
         \item Hypothesis 3: \textit{The data type of the elements in the dataset impacts the running time of the sorting algorithm}. When looking at \ref{fig:hip3} we can see how the performance of all of the four algorithms remains consistent with all the analyzed data types. Integer and Long data dypes appear to have a very slight better performance but these findings suggest that the data types that were analyzed in this experiment don't have a relevant impact on the dependent variable.
     \end{enumerate}
