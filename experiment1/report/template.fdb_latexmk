@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1731179788 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731179793
-  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731179784 15955 c05f686ad3815e4f6ebc510fa30ff6be ""
+["pdflatex"] 1731337933 "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" "template.pdf" "template" 1731337936
+  "/Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment1/report/template.tex" 1731337932 22614 55a62ea2b9159d0f0a7bea3d8569988e ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -100,9 +100,9 @@
   "fig/hip1.png" 1731176010 84279 f18690cf5ae4823ab7353a66ff3de46f ""
   "fig/hip2.png" 1731176010 75900 557dee71fe4e57be045cd3dbc303ed16 ""
   "fig/hip3.png" 1731176010 80242 7779636479fc505aaa9a4c0f23e476d8 ""
-  "template.aux" 1731179792 8034 afe9f4c07cd45c948f9eab04985477e9 "pdflatex"
+  "template.aux" 1731337936 8233 54245a840a6393c876454f324fc8bc3f "pdflatex"
   "template.out" 0 -1 0 "pdflatex"
-  "template.tex" 1731179784 15955 c05f686ad3815e4f6ebc510fa30ff6be ""
+  "template.tex" 1731337932 22614 55a62ea2b9159d0f0a7bea3d8569988e ""
   (generated)
   "template.aux"
   "template.log"
