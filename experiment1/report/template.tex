@@ -22,7 +22,7 @@
 
 \section{Abstract}
 
-This study investigates the performance of four sorting algorithms—BubbleSortUntilNoChange, BubbleSortWhileNeeded, SelectionSortGPT, and QuickSortGPT—under various conditions of input sortedness, dataset size, and data type. By measuring and analyzing the algorithms' execution times, we aimed to understand the impact of these factors on sorting efficiency. QuickSortGPT consistently performed the best, particularly with larger datasets, while the BubbleSort variants were the slowest across most configurations. Sortedness influenced QuickSortGPT's efficiency, showing faster results on random and partially sorted data, while SelectionSortGPT performed slightly better with reversed data. Dataset size had a noticeable effect on execution time, whereas data type had minimal impact.
+This study investigates the performance of four sorting algorithms—BubbleSortUntilNoChange, BubbleSortWhileNeeded, SelectionSortGPT, and QuickSortGPT—under various conditions of input sortedness, dataset size, and data type. By measuring and analyzing the algorithms' execution times, we aimed to understand the impact of these factors on sorting efficiency. QuickSortGPT consistently performed the best, particularly with larger datasets, while the BubbleSort variants were the slowest across most configurations. Sortedness influenced QuickSortGPT's efficiency, showing faster results on random and partially sorted data, while SelectionSortGPT performed slightly better than QuickSortGPT with reversed data. Dataset size had a noticeable effect on execution time, whereas data type had minimal impact.
 
 
 \section{Introduction}
@@ -87,6 +87,8 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
 
     \end{itemize}
 
+    \newpage 
+    
     \subsection{Apparatus and Materials}
 
     The experiment was conducted on a MacBook Air with an M1 chip, 8GB of RAM, running macOS Sequoia 15.1. The programming language used was OpenJDK 21.0.4, with VSCode version 1.92.1 as the integrated development environment (IDE). To ensure consistency and minimize interference, no other user processes were running in the background during the experiment.
@@ -250,7 +252,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
             & Reversed & Integer & 41584.0 & 195208.0 & 765833.5 & 91154051.75 & 93264417.0 \\
             & Reversed & Long & 14459.0 & 141229.0 & 1109583.0 & 125214010.25 & 127176375.0 \\
             \hline
-            \multirow{16}{*}{SSGPT} & FirstKSorted & Double & 21875.0 & 22583.0 & 1841437.5 & 184498437.5 & 188602875.0 \\
+            \multirow{10}{*}{SSGPT} & FirstKSorted & Double & 21875.0 & 22583.0 & 1841437.5 & 184498437.5 & 188602875.0 \\
             & FirstKSorted & Float & 17291.0 & 29989.5 & 1423271.0 & 136545218.75 & 138658833.0 \\
             & FirstKSorted & Integer & 27541.0 & 28334.0 & 580250.0 & 54831750.0 & 56596041.0 \\
             & FirstKSorted & Long & 7833.0 & 7989.75 & 688000.5 & 65361333.5 & 66988292.0 \\
@@ -278,7 +280,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
 
     \subsection{Compare Hypotheses with Results}
 
-    We decided to use the median as our statistic of interest when discussing the resuls because it is less affectd by extreme values which, in our case, may due to system-dependent causes such as job scheduling and it reflects the typical behaviour of a phenomenon, in our case the algorithm.
+    We decided to use the median as our statistic of interest when discussing the resuls because it is less affectd by extreme values which, in our case, may due to system-dependent causes such as warmup time and job scheduling.l The median also reflects the typical behaviour of the algorithm.
 
     When observing the plots we can see that, overall, the median trends seem to be consistent across the various independent variables explored: both BubbleSortUntilNoChange and BubbleSortWhileNeeded appear to be the slowest, followed by SelectionSortGPT and QuickSortGPT usually peforms better than the others. 
 
