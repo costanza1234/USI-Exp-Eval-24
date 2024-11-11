@@ -163,7 +163,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
         \label{fig:hip1_linear}
     \end{figure}
 
-    In Figure \ref{fig:hip2}, we show the relationship between the size of the dataset and the running time of the sorting algorithm. The x-axis represents the size of the dataset, while the y-axis (in logarithmic scale) represents the time in nanoseconds.
+    In Figure \ref{fig:hip2}, we show the relationship between the size of the dataset and the running time of the sorting algorithm. The x-axis represents the size of the dataset, while the y-axis (in logarithmic scale) represents the time in nanoseconds. \\ 
 \hfill
 
 
@@ -280,14 +280,14 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
 
     \subsection{Compare Hypotheses with Results}
 
-    We decided to use the median as our statistic of interest when discussing the resuls because it is less affectd by extreme values which, in our case, may due to system-dependent causes such as warmup time and job scheduling.l The median also reflects the typical behaviour of the algorithm.
+    We decided to use the median as our statistic of interest when discussing the resuls because it is less affectd by extreme values which, in our case, may due to system-dependent causes such as warmup time and job scheduling.l The median also reflects the typical behaviour of the algorithm. \\
 
     When observing the plots we can see that, overall, the median trends seem to be consistent across the various independent variables explored: both BubbleSortUntilNoChange and BubbleSortWhileNeeded appear to be the slowest, followed by SelectionSortGPT and QuickSortGPT usually peforms better than the others. 
 
     Now we discuss the median values with respect to each hypothesis:
 
     \begin{enumerate}
-        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and \ref{fig:hip1_linear} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT.
+        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and \ref{fig:hip1_linear} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT. 
 
         \item Hypothesis 2: \textit{The size of the dataset impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip2} we observe that overall, all the algorithms perform better with smaller arrays: the running time increases as the size of the dataset increases. This can be expected as there is less data to process in smaller arrays. What seems to be the most relevant finding here is that QuickSortGPT seems to be significantly faster compared to the others with large datasets.
 
