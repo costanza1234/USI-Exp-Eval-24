@@ -34,7 +34,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
     \subsection{Hypotheses}
 
     \begin{enumerate}
-        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. The \textbf{independent variable} is the level of sortedness of the input data, which can vary between random, reversed, first-half-sorted, and last-half-sorted configurations. The \textbf{dependent variable} is the running time of the sorting algorithm. The \textbf{confounding variables} we identified are: the size of the dataset and the data type of its elements. 
+        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. The \textbf{independent variable} is the level of sortedness of the input data, which can vary between random, reversed, first-k-sorted, and last-k-sorted configurations were k is half of the size of the array. The \textbf{dependent variable} is the running time of the sorting algorithm. The \textbf{confounding variables} we identified are: the size of the dataset and the data type of its elements. 
 
         \item Hypothesis 2: \textit{The size of the dataset impacts the running time of the sorting algorithm}. The \textbf{independent variable} is the size of the dataset, which can vary between $100$, $1\,000$ and $10\,000$ elements. The \textbf{dependent variable} is the running time of the sorting algorithm. The \textbf{confounding variables} we identified are: the level of sortedness of the dataset and the data type of its elements. 
 
@@ -280,7 +280,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
 
     \subsection{Compare Hypotheses with Results}
 
-    We decided to use the median as our statistic of interest when discussing the resuls because it is less affectd by extreme values which, in our case, may due to system-dependent causes such as warmup time and job scheduling.l The median also reflects the typical behaviour of the algorithm. \\
+    We decided to use the median as our statistic of interest when discussing the results because it is less affected by extreme values which may be due to system-dependent causes such as warmup time and job scheduling. The median also reflects the typical behaviour of the algorithm. \\
 
     When observing the plots we can see that, overall, the median trends seem to be consistent across the various independent variables explored: both BubbleSortUntilNoChange and BubbleSortWhileNeeded appear to be the slowest, followed by SelectionSortGPT and QuickSortGPT usually peforms better than the others. 
 
