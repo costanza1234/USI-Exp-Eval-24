@@ -14,7 +14,7 @@
 
 
 \setassignment
-\setduedate{Monday, 11 November 2024, 11:59 PM}
+\setduedate{Monday, 11 November 2024, 06:00 PM}
 
 \serieheader{Experimentation and Evaluation}{2024}{\textbf{Students:} Davide Frova, Costanza Rodriguez Gavazzi}{}{Project 1}{}
 \newline
@@ -118,11 +118,6 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
             \end{itemize}
         \end{itemize}
     
-        \item \textbf{Warm-Up Phase}:
-        \begin{itemize}
-            \item For each sorting algorithm, each dataset, and each sortedness level, perform an initial set of 25 sorting operations. These warm-up runs are discarded from the final results to allow the system and algorithm to stabilize.
-        \end{itemize}
-    
         \item \textbf{Measure Execution Time}:
         \begin{itemize}
             \item For each sorting algorithm, dataset size, data type, and sortedness level, perform 100 timed sorting operations:
@@ -190,10 +185,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
 
 
     \subsection{Descriptive Statistics}
-    
     Table \ref{descr_table} provides a summary of the running times for each sorting algorithm, data type, and sortedness level. The table includes the minimum, 1st quartile, median, 3rd quartile, and maximum values for the running times in nanoseconds. The data is grouped by Algorithm.\\
-
-    \newpage
     \begin{center}
         \footnotesize
         \begin{longtable}{|l|l|l|r|r|r|r|r|}
@@ -293,7 +285,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
     Now we discuss the median values with respect to each hypothesis:
 
     \begin{enumerate}
-        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and \ref{fig:hip1} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT.
+        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and \ref{fig:hip1_linear} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT.
 
         \item Hypothesis 2: \textit{The size of the dataset impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip2} we observe that overall, all the algorithms perform better with smaller arrays, which makes sense because there is less data to process. What seems to be the most relevant finding here is that QuickSortGPT is particularly faster compared to the others with large datasets.
 
