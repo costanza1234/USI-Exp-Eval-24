@@ -6,25 +6,18 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Random;
 
-/*
- * Hypothesis 1: Independent variable = sorting algorithm used.
+/* 
+ * Hypothesis 1: Independent variable = sortedness level of the array.
  * Dependent variable = time taken to sort the array.
  * Counfounding variables = size of the array, sortedness level of the array
  * 
- * Hypothesis 2: Independent variable = sortedness level of the array.
+ * Hypothesis 2: Independent variable = size of the array.
  * Dependent variable = time taken to sort the array.
- * Counfounding variables = sorting algorithm used, size of the array,
- * sortedness level of the array
+ * Counfounding variables = size of the array, sortedness level of the array
  * 
- * Hypothesis 3: Independent variable = size of the array.
+ * Hypothesis 3: Independent variable = data type of the array.
  * Dependent variable = time taken to sort the array.
- * Counfounding variables = sorting algorithm used, size of the array,
- * sortedness level of the array
- * 
- * Hypothesis 4: Independent variable = data type of the array.
- * Dependent variable = time taken to sort the array.
- * Counfounding variables = sorting algorithm used, size of the array,
- * sortedness level of the array
+ * Counfounding variables = size of the array, sortedness level of the array
  */
 public class SortingExperimentBB {
     /*
