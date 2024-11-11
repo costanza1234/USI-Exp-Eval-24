@@ -287,11 +287,11 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
     Now we discuss the median values with respect to each hypothesis:
 
     \begin{enumerate}
-        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and \ref{fig:hip1_linear} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT. 
+        \item Hypothesis 1: \textit{ The level of sortedness of the input data impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip1} and Figure \ref{fig:hip1_linear} we can see that QuickSort performs better with Random and FirstKSorted sortings, while with Reversed sorting we see SelectionSortGPT peform slightly faster. The rest of the algorithms seem to not be as affecte the level of sortedness of the input data, suggesting that the only algorithm out of the four we analyzed that is sensitive to the level of sortedness is QuickSortGPT. 
 
         \item Hypothesis 2: \textit{The size of the dataset impacts the running time of the sorting algorithm}. As shown in Figure \ref{fig:hip2} we observe that overall, all the algorithms perform better with smaller arrays: the running time increases as the size of the dataset increases. This can be expected as there is less data to process in smaller arrays. What seems to be the most relevant finding here is that QuickSortGPT seems to be significantly faster compared to the others with large datasets.
 
-        \item Hypothesis 3: \textit{The data type of the elements in the dataset impacts the running time of the sorting algorithm}. When looking at \ref{fig:hip3} we can see how the performance of all of the four algorithms remains consistent with all the analyzed data types. Integer and Long data dypes appear to have a very slight better performance but these findings suggest that the data types that were analyzed in this experiment don't have a relevant impact on the dependent variable.
+        \item Hypothesis 3: \textit{The data type of the elements in the dataset impacts the running time of the sorting algorithm}. When looking at Figure \ref{fig:hip3} we can see how the performance of all of the four algorithms remains consistent with all the analyzed data types. Integer and Long data dypes appear to have a very slight better performance but these findings suggest that the data types that were analyzed in this experiment don't have a relevant impact on the dependent variable.
     \end{enumerate}
 
 
@@ -301,9 +301,10 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
     \begin{itemize}
         \item Analysis: we only considered the median and we did not perform any inferential statistics to determine the actual relevance of our findings
         \item Execution: we exclusivly ran the experiment on one specific system, not exploring the impact of using different hardware and software
+        \item Outliers: We did not take into account the warmup time when performing the experiment.
     \end{itemize}
 
-    Threats to validity are mainly related to the experiment being performed on a single harware and software combination.
+    Threats to validity are mainly related to the experiment being performed on a single harware and software combination, which has an impact on external validity: different hardware and software combinations may perform differently. With respect to internal validity, confounding factors such as warmup time may have an impact.
 
 
 
