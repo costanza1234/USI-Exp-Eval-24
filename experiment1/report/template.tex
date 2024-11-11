@@ -51,7 +51,7 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
         \item \textbf{Independent Variables}:
         
         \begin{itemize}
-            \item Level of sortedness of the input data: random, reversed, first-half-sorted, last-half-sorted.
+            \item Level of sortedness of the input data: random, reversed, first-k-sorted, last-k-sorted with k = half of the size of the array.
             \item Size of the dataset: $100$, $1\,000$, $10\,000$ elements.
             \item Data type of the elements in the dataset: Integer (4B), Long (8B), Float (4B), Double (8B).
         \end{itemize}
@@ -115,8 +115,8 @@ In this study, we evaluated four sorting algorithms with diverse strategies: two
             \begin{itemize}
                 \item \textbf{Random}: Populate the array with randomly generated values.
                 \item \textbf{Reversed}: Populate the array with values in descending order.
-                \item \textbf{First-half-sorted}: Sort the first half of the array, with the remaining elements randomized.
-                \item \textbf{Last-half-sorted}: Sort the last half of the array, with the initial elements randomized.
+                \item \textbf{First-k-sorted}: Sort the first half of the array, with the remaining elements randomized.
+                \item \textbf{Last-k-sorted}: Sort the last half of the array, with the initial elements randomized.
             \end{itemize}
         \end{itemize}
     
