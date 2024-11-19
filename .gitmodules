@@ -1,0 +1,4 @@
+[submodule "experiment2/code-comprehension"]
+  path = experiment2/code-comprehension
+  url = https://github.com/frovaaa/exp-eval-code-comprehension.git
+
