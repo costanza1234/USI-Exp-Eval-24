@@ -1,3 +1,10 @@
 # Remove dsstore
 .DS_Store
 .venv/
+
+# Remove latex output files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
