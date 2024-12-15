@@ -1,8 +1,8 @@
-PWD /Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment2/code-comprehension/report/project_5_RodriguezGavazzi_Costanza_report
+PWD /Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment2/report/project_5_RodriguezGavazzi_Costanza_report
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment2/code-comprehension/report/project_5_RodriguezGavazzi_Costanza_report/template.tex
+INPUT /Users/Costanza/Desktop/EE/USI-Exp-Eval-24/experiment2/report/project_5_RodriguezGavazzi_Costanza_report/template.tex
 OUTPUT template.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrartcl.cls
