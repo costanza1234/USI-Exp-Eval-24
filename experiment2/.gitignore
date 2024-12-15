@@ -1,0 +1,3 @@
+# Remove dsstore
+.DS_Store
+.venv/
