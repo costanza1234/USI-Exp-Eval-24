@@ -1,0 +1,4025 @@
+[{
+  "_id": {
+    "$oid": "674f758f21997cc708e5bb75"
+  },
+  "results": [
+    {
+      "elapsedTime": 2426,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 2434,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 2409,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2416,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2050,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 1826,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 3013,
+      "isCorrect": false,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3201,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 1896,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2117,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 2496,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4806,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2048,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2612,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 1910,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2586,
+      "isCorrect": false,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4319,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2646,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3759,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3859,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 24,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:18:07.314Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7922e95702b59982bf91"
+  },
+  "results": [
+    {
+      "elapsedTime": 2286,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 2431,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 2167,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 1607,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2100,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 1956,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 5162,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3239,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3038,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 1590,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 1556,
+      "isCorrect": false,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3423,
+      "isCorrect": false,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2041,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 4038,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 1474,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2506,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4903,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2443,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 2938,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 2490,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 25,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:33:22.595Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7a6de95702b59982bf92"
+  },
+  "results": [
+    {
+      "elapsedTime": 6971,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 5840,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 3841,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 4020,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 8056,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 7875,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4824,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3108,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4291,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 5641,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 3842,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3842,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2345,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2076,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3343,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2227,
+      "isCorrect": false,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4892,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3640,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3244,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 14765,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 22,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:38:53.455Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7ac5e95702b59982bf93"
+  },
+  "results": [
+    {
+      "elapsedTime": 3498,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4196,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 3712,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2778,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2810,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 3443,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 3264,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2145,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 5073,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 3248,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 3822,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 1911,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 4031,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3611,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2865,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3343,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3629,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3681,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3246,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3046,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 22,
+    "csBackground": true,
+    "yearsOfExperience": 5
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:40:21.063Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7c17775bbb687eb28202"
+  },
+  "results": [
+    {
+      "elapsedTime": 4269,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3558,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 3186,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2344,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3831,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 10435,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4381,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 4296,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4529,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4780,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 5546,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4663,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2030,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2784,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3778,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2566,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3458,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2549,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 4027,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3331,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 26,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:45:59.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7c18775bbb687eb28203"
+  },
+  "results": [
+    {
+      "elapsedTime": 15129,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 7131,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 6846,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 6428,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 10554,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 6808,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4201,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3904,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4720,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4885,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 7977,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5412,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2680,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 8973,
+      "isCorrect": false,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 9006,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 7725,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4286,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 8150,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3904,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5825,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 25,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:46:00.980Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7ce3775bbb687eb28204"
+  },
+  "results": [
+    {
+      "elapsedTime": 8789,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 10994,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 9798,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 4331,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 6541,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 8143,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 7261,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2922,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4979,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 11797,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 12152,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4011,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 6515,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3287,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 5804,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 5864,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 6610,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3952,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 6332,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5234,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 26,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:49:23.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7d41775bbb687eb28205"
+  },
+  "results": [
+    {
+      "elapsedTime": 6469,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3099,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 6014,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2878,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3987,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 4434,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4595,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3059,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 2857,
+      "isCorrect": false,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2564,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4161,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2396,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 4548,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 4494,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 1856,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 5967,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3938,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3539,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 6607,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5061,
+      "isCorrect": false,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 22,
+    "csBackground": true,
+    "yearsOfExperience": 1
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:50:57.904Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f7ef8745296d0e44b754d"
+  },
+  "results": [
+    {
+      "elapsedTime": 5677,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 6289,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 5569,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 3068,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4641,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 4893,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4669,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 5339,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4337,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2923,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4688,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2541,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2157,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3424,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 6453,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3689,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 5589,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 4041,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 5460,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3709,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 20,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-03T21:58:16.487Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f81e54f61ef90d066c83a"
+  },
+  "results": [
+    {
+      "elapsedTime": 4581,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 8952,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4660,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 3228,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3776,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 5415,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4783,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2509,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3898,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2655,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4926,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3360,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2495,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3444,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2395,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 5187,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 5735,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3496,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 5381,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4987,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 26,
+    "csBackground": true,
+    "yearsOfExperience": 1
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:10:45.381Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f81fd4f61ef90d066c83b"
+  },
+  "results": [
+    {
+      "elapsedTime": 3416,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 2123,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 2436,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 1571,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 1681,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 3411,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 1597,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 1599,
+      "isCorrect": false,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 2089,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 1942,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 1358,
+      "isCorrect": false,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2483,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 1551,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 1460,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 1586,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 1626,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 2041,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 1793,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 1341,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 1559,
+      "isCorrect": false,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 26,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:11:09.040Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f82374f61ef90d066c83c"
+  },
+  "results": [
+    {
+      "elapsedTime": 3689,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3969,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 2354,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 5530,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2009,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 2153,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2132,
+      "isCorrect": false,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 9016,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 39951,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 5851,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 12404,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5574,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2590,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3241,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2331,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2784,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 2972,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2247,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 1759,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 2565,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 24,
+    "csBackground": true,
+    "yearsOfExperience": 8
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:12:07.547Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f841149002af9af589334"
+  },
+  "results": [
+    {
+      "elapsedTime": 5067,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 5370,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 5872,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2259,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3455,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 5109,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4835,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3676,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3461,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 5522,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 5190,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5498,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 4060,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 5241,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 6594,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 6473,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 6986,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 5013,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 12412,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5792,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 25,
+    "csBackground": true,
+    "yearsOfExperience": 8
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:20:01.041Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f85406f5b965f6fece369"
+  },
+  "results": [
+    {
+      "elapsedTime": 7032,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 5157,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4796,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 3995,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4878,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 5426,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 6778,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3977,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4379,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 6180,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 5995,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 10529,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3463,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 4429,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 4928,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4012,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 5547,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 7263,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 1613,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3862,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 7
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:25:04.403Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f87a9d438e1da63e1436b"
+  },
+  "results": [
+    {
+      "elapsedTime": 7581,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4605,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 9674,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 4173,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4925,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 8552,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 5404,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2538,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4158,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 5221,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 9089,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5222,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 8789,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3754,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3855,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4524,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4117,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 5821,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 5794,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4942,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 3
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:35:21.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f8875d438e1da63e1436c"
+  },
+  "results": [
+    {
+      "elapsedTime": 12236,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 6493,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 12278,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2391,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4186,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 17398,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 9005,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 1922,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 5322,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4771,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 5122,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5836,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2189,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 5056,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2760,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 7504,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 8306,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 4674,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3524,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4622,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 24,
+    "csBackground": true,
+    "yearsOfExperience": 3
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:38:45.056Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f8878d438e1da63e1436d"
+  },
+  "results": [
+    {
+      "elapsedTime": 4099,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 2983,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4560,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 1978,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3223,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 4721,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2848,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 5766,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3439,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 3019,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 3959,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2957,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 1560,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2663,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3409,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4443,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3894,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2621,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 6150,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4815,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 5
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:38:48.741Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f88ecd438e1da63e1436e"
+  },
+  "results": [
+    {
+      "elapsedTime": 4121,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4250,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 11726,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 11483,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2385,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 5873,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2892,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2870,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3057,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 3143,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4217,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4642,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2512,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3136,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2202,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3231,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 6829,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2864,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3390,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5141,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 5
+  },
+  "createdAt": {
+    "$date": "2024-12-03T22:40:44.795Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f96911ee015438d753550"
+  },
+  "results": [
+    {
+      "elapsedTime": 9673,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 9995,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 10213,
+      "isCorrect": false,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 5078,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 7279,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 18944,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 7613,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 6427,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 10361,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4897,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 20245,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5578,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 4744,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 6009,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 10030,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 14978,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 7795,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 7311,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 13030,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 7278,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 58,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-03T23:38:57.978Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674f9c67215ce1b9444f15d5"
+  },
+  "results": [
+    {
+      "elapsedTime": 5226,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4486,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4343,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2257,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4387,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 5659,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4539,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2119,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3811,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4525,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4207,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5787,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3692,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3888,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3142,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3658,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3724,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3775,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 2009,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 2675,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 24,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-04T00:03:51.508Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674fdc15d76a7433294a53be"
+  },
+  "results": [
+    {
+      "elapsedTime": 6587,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 5061,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 5197,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2543,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 7984,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 3557,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2984,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3982,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3552,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 3368,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4656,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3817,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2971,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2087,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 5219,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 6488,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4003,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 4988,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 6737,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 6174,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 7
+  },
+  "createdAt": {
+    "$date": "2024-12-04T04:35:33.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674ff3f44cccf6a2f88c01e1"
+  },
+  "results": [
+    {
+      "elapsedTime": 7699,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 6530,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4213,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 5795,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3580,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 18105,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 5779,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 5606,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4090,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 5811,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 5493,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3794,
+      "isCorrect": false,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 7280,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2760,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 15059,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 497,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 328,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 310,
+      "isCorrect": false,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 193,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 150,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 4
+  },
+  "createdAt": {
+    "$date": "2024-12-04T06:17:24.645Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674ffc91dee2829cb5d73915"
+  },
+  "results": [
+    {
+      "elapsedTime": 5527,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4293,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4240,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 3848,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4071,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 14304,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 3756,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 5829,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 4430,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4573,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 6042,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2678,
+      "isCorrect": false,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3598,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3431,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 7812,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4381,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4293,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3414,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 2097,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4366,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 20,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-04T06:54:09.498Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750039cb3c0bd60a05422e2"
+  },
+  "results": [
+    {
+      "elapsedTime": 3744,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3624,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 2873,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 1873,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2040,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 2853,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 1744,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2558,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 1771,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 1976,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 2325,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2940,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3008,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 1943,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2368,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2693,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 2928,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 1919,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 2277,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 2257,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 20,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-04T07:24:12.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750053e881951e5d84bf07e"
+  },
+  "results": [
+    {
+      "elapsedTime": 4261,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3240,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 3163,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2096,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 1870,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 2662,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2497,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 1772,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 1629,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 3669,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 3059,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2077,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3465,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2400,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3927,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 5189,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3958,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2734,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 4280,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3812,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 21,
+    "csBackground": true,
+    "yearsOfExperience": 7
+  },
+  "createdAt": {
+    "$date": "2024-12-04T07:31:10.655Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67500d7657900f8273aff8e8"
+  },
+  "results": [
+    {
+      "elapsedTime": 5089,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4400,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4200,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2621,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3957,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 4206,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4383,
+      "isCorrect": false,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 6924,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 5686,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4140,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 7686,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5136,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 6900,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 5223,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 6103,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4926,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3018,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 5544,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 4656,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5056,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 26,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-04T08:06:14.607Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67500f850bb4cd6eac4ecc3c"
+  },
+  "results": [
+    {
+      "elapsedTime": 4555,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4368,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4935,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2388,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3990,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 3275,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2940,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 2853,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3394,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2882,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4544,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3773,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3260,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2997,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2355,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 2460,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3390,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 4257,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 2225,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3277,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 0,
+    "csBackground": true,
+    "yearsOfExperience": 1
+  },
+  "createdAt": {
+    "$date": "2024-12-04T08:15:01.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67501d08c398929b7a04a96b"
+  },
+  "results": [
+    {
+      "elapsedTime": 9255,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 9306,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 12322,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 8471,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 6337,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 16137,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 11556,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 4456,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 6656,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 26341,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 8004,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 31522,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 5775,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 6390,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 6335,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 14224,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 12973,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 14690,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 6877,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5992,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 29,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-04T09:12:40.986Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675024e8efae76c9e7006851"
+  },
+  "results": [
+    {
+      "elapsedTime": 3995,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4123,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 2457,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2406,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2457,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 2972,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 2720,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 4004,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 3091,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2722,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 3938,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 3063,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 3056,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3058,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2751,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3338,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 3046,
+      "isCorrect": false,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2638,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 2821,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4372,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 25,
+    "csBackground": true,
+    "yearsOfExperience": 6
+  },
+  "createdAt": {
+    "$date": "2024-12-04T09:46:16.557Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675028849591c3fd9b86c92f"
+  },
+  "results": [
+    {
+      "elapsedTime": 4344,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3676,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 6208,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2358,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 3191,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 3072,
+      "isCorrect": false,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 4545,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3409,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 5723,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 6144,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 7747,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 5959,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 10930,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 5772,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3179,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4491,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4660,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 2007,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3107,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5362,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 25,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-04T10:01:40.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67504209c242968b33f6a401"
+  },
+  "results": [
+    {
+      "elapsedTime": 8016,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 5940,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 5329,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 4225,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4331,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 14818,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 5200,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3918,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 2395,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 6133,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4902,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4332,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 4719,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3082,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 8540,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4374,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 10293,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 4355,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3798,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5539,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 30,
+    "csBackground": true,
+    "yearsOfExperience": 1
+  },
+  "createdAt": {
+    "$date": "2024-12-04T11:50:33.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6750591794d41a6c001adae8"
+  },
+  "results": [
+    {
+      "elapsedTime": 4161,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 4114,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4190,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2717,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2882,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 2265,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 3629,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 5027,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 2868,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 6380,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 6163,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4319,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 5470,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 9098,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 4326,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 5194,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4472,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3650,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 4517,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 5614,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 24,
+    "csBackground": true,
+    "yearsOfExperience": 2
+  },
+  "createdAt": {
+    "$date": "2024-12-04T13:28:55.738Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67508278552c62ded9ce3247"
+  },
+  "results": [
+    {
+      "elapsedTime": 6014,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 6620,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 6785,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2692,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 4416,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 9330,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 7541,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3063,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 5312,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 4758,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 3951,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 10607,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2965,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 4183,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2977,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3851,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4919,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 3446,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 5018,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 3808,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 26,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-04T16:25:28.013Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67515f8695e19cd1fc0874be"
+  },
+  "results": [
+    {
+      "elapsedTime": 6898,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 3196,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4046,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 1761,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 2581,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 2260,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 3264,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 3271,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 2785,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 2776,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 6307,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 2182,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2163,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 2755,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 2405,
+      "isCorrect": false,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 3552,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 4769,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 5874,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 3848,
+      "isCorrect": false,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4100,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 24,
+    "csBackground": false,
+    "yearsOfExperience": 0
+  },
+  "createdAt": {
+    "$date": "2024-12-05T08:08:38.442Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6752f2f1deb25df4faef7f03"
+  },
+  "results": [
+    {
+      "elapsedTime": 6212,
+      "isCorrect": true,
+      "questionId": "8"
+    },
+    {
+      "elapsedTime": 5083,
+      "isCorrect": true,
+      "questionId": "10"
+    },
+    {
+      "elapsedTime": 4345,
+      "isCorrect": true,
+      "questionId": "16"
+    },
+    {
+      "elapsedTime": 2292,
+      "isCorrect": true,
+      "questionId": "1"
+    },
+    {
+      "elapsedTime": 5428,
+      "isCorrect": true,
+      "questionId": "14"
+    },
+    {
+      "elapsedTime": 9240,
+      "isCorrect": true,
+      "questionId": "11"
+    },
+    {
+      "elapsedTime": 3950,
+      "isCorrect": true,
+      "questionId": "6"
+    },
+    {
+      "elapsedTime": 5598,
+      "isCorrect": true,
+      "questionId": "7"
+    },
+    {
+      "elapsedTime": 11742,
+      "isCorrect": true,
+      "questionId": "18"
+    },
+    {
+      "elapsedTime": 5071,
+      "isCorrect": true,
+      "questionId": "20"
+    },
+    {
+      "elapsedTime": 4641,
+      "isCorrect": true,
+      "questionId": "17"
+    },
+    {
+      "elapsedTime": 4809,
+      "isCorrect": true,
+      "questionId": "12"
+    },
+    {
+      "elapsedTime": 2951,
+      "isCorrect": true,
+      "questionId": "5"
+    },
+    {
+      "elapsedTime": 3787,
+      "isCorrect": true,
+      "questionId": "19"
+    },
+    {
+      "elapsedTime": 3325,
+      "isCorrect": true,
+      "questionId": "2"
+    },
+    {
+      "elapsedTime": 4884,
+      "isCorrect": true,
+      "questionId": "13"
+    },
+    {
+      "elapsedTime": 8847,
+      "isCorrect": true,
+      "questionId": "15"
+    },
+    {
+      "elapsedTime": 5783,
+      "isCorrect": true,
+      "questionId": "4"
+    },
+    {
+      "elapsedTime": 4370,
+      "isCorrect": true,
+      "questionId": "9"
+    },
+    {
+      "elapsedTime": 4219,
+      "isCorrect": true,
+      "questionId": "3"
+    }
+  ],
+  "demographics": {
+    "age": 25,
+    "csBackground": true,
+    "yearsOfExperience": 1
+  },
+  "createdAt": {
+    "$date": "2024-12-06T12:49:53.211Z"
+  }
+}]
