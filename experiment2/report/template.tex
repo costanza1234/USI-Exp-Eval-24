@@ -21,138 +21,124 @@
 
 
 \section{Abstract}
-This study investigates whether identifier naming conventions in source code affect reading speed and comprehension. We conducted a controlled experiment with 36 participants to compare reading speed and accuracy between camelCase and kebab-case identifiers. Participants completed a web-based task requiring them to match phrases with their corresponding identifiers in both styles. Our results suggest that while kebab-case showed slightly longer average response times (mean = 5119.94ms vs 4442.72ms for camelCase), both styles achieved similar accuracy rates. The findings provide insights into the impact of naming conventions on code readability.
+ 
 
 \section{Introduction}
-Source code readability is crucial for software maintenance and development, with developers spending approximately 60\% of their time reading and comprehending code. Identifier naming conventions play a vital role in this process, yet there is ongoing debate about the most effective style. While programming languages and style guides often recommend specific conventions like camelCase or kebab-case, empirical evidence supporting these recommendations is limited.
 
-Studies in natural language reading have shown that explicit word separators improve reading speed by approximately 20\%, regardless of the separator type. However, it remains unclear whether these findings translate to source code comprehension, where different cognitive processes may be involved. This study aims to empirically investigate whether the choice between camelCase and kebab-case impacts identifier recognition speed and accuracy.
+Introduce the topic of investigation to the reader and motivate why you did the experiment.
 
 \subsection{Hypotheses}
-- Null Hypothesis ($H_0$): There is no significant difference in identifier recognition speed between camelCase and kebab-case styles.
-- Alternative Hypothesis ($H_1$): The kebab-case style leads to faster identifier recognition compared to camelCase.
+\textbf{Null Hypothesis}: There is no significant difference in reading speed between camelCase and kebab-case. \\
+\hfill \\
+\textbf{Alternative Hypothesis}: Users perform better with kebab-case compared to camelCase.
 
 \section{Method}
-\subsection{Variables}
 
-\subsubsection{Independent Variables}
-- Identifier Style (2 levels):
-  - camelCase (e.g., moveSource)
-  - kebab-case (e.g., move-source)
+\subsection{Variables}
+\subsubsection{Independent Variable} 
+\textbf{Case Style}: camelCase, kebab-case
 
 \subsubsection{Dependent Variables}
-- Response Time: Time taken to identify correct identifier (milliseconds)
-- Accuracy: Correctness of identifier selection (binary: correct/incorrect)
+\textbf{Response Time}: in milliseconds; \\
+\textbf{Correctness}: true/false
 
 \subsubsection{Control Variables}
-- Question Set: Identical word combinations presented in both styles
-- User Interface: Consistent web application interface
-- Task Instructions: Standardized instructions for all participants
+Same questions presented in random order.
 
-\subsubsection{Blocking Variables}
-- Programming Experience: Computer science background (yes/no)
-- Years of Experience: Professional programming experience
-- Age: Participant age
+\subsubsection{Blocking Variable}
+\textbf{Previous programming experience}: true/false.
 
 \subsection{Design}
-This study employs a within-subjects experimental design where each participant experiences both conditions (camelCase and kebab-case). The order of presentation is randomized to control for learning effects. Twenty questions were presented to each participant, with ten in each style, randomized to minimize order effects.
+Single-Factor Experiment \\
+\hfill \\
+Within-Subject Design: Participants experienced both case styles in random order to reduce bias \\
+\hfill \\
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{./figures/graph.pdf}
+    \caption{Design of the experiment}
+    \label{fig:graph}
+\end{figure}
+
+\subsection{Participants}
+Total participant: 36 \\
+\hfill \\
+Age range:  \\
+Programming experience: n participants 
 
 \subsection{Apparatus and Materials}
-todo spiegare front e back e la logica delle misurazioni ecc
-
+Web app built with Next.js, React, and TypeScript, deployed on Vercel. //todo davide
 
 \subsection{Procedure}
-1. Participants accessed the web application and provided demographic information
-2. Instructions were presented explaining the task requirements
-3. A practice round was conducted to familiarize participants with the interface
-4. Participants completed 20 identifier recognition tasks (10 per style)
-5. For each task:
-   - A phrase was presented
-   - Multiple identifier options were shown
-   - Participants selected the matching identifier
-   - Response time and accuracy were recorded
-6. Results were automatically saved to the database
-
+Participants:
+\begin{itemize}
+    \item Provided their age and if they had programming background.
+    \item Completed a warm-up tutorial.
+    \item Answered 10 camelCase and 10 kebab-case questions, randomly shuffled.
+\end{itemize}
+Recorded data included response times, correctness, age of participant and programming background.
 
 \section{Results}
-
 \subsection{Visual Overview}
 
-The figures provided demonstrate several key patterns:
-1. Response time distributions show positive skew for both styles, with some notable outliers
-2. Computer science background appears to influence performance, with CS participants generally showing faster response times
-3. Both styles show similar accuracy patterns, though with different time distributions
-
-\begin{figure}[h]
+\begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/correct_camel_background.eps}
-    \caption{Boxplot of the two groups}
-    \label{fig:boxplot}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/correct_camel_distr.png}
+        \caption{Distribution of Correct Answers for camelCase}
+        \label{fig:correct_camel_distr}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/correct_kebab_distr.png}
+        \caption{Distribution of Correct Answers for kebab-case}
+        \label{fig:correct_kebab_distr}
+    \end{minipage}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\textwidth]{./figures/correct_camel_distr.png}
-    \caption{Boxplot of the two groups}
-    \label{fig:boxplot}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/correct_camel_noback.png}
+        \caption{Correct Answers for camelCase with No Programming Background}
+        \label{fig:correct_camel_noback}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/correct_camel_background.eps}
+        \caption{Correct Answers for camelCase with Programming Background}
+        \label{fig:correct_camel_background}
+    \end{minipage}
+    
+    \vspace{0.5cm} 
+    
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/correct_kebab_noBack.png}
+        \caption{Correct Answers for kebab-case with No Programming Background}
+        \label{fig:correct_kebab_noback}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/correct_keb_backgr.png}
+        \caption{Correct Answers for kebab-case with Programming Background}
+        \label{fig:correct_kebab_background}
+    \end{minipage}
 \end{figure}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{./figures/correct_camel_noback.png}
-    \caption{Boxplot of the two groups}
-    \label{fig:boxplot}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{./figures/correct_keb_backgr.png}
-    \caption{Boxplot of the two groups}
-    \label{fig:boxplot}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{./figures/correct_kebab_distr.png}
-    \caption{Boxplot of the two groups}
-    \label{fig:boxplot}
-\end{figure}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\textwidth]{./figures/correct_kebab_noBack.png}
-    \caption{Boxplot of the two groups}
-    \label{fig:boxplot}
-\end{figure}
-
-\begin{figure}[h]
+\begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{./figures/elapsed_time_correct.png}
-    \caption{Boxplot of the two groups}
+    \caption{camelCase vs kebab-case: Elapsed Time}
     \label{fig:boxplot}
 \end{figure}
 
 \subsection{Descriptive Statistics}
-
-Analysis of response times reveals interesting patterns across both identifier styles:
-
-Overall Performance:
-- camelCase: Mean = 4442.72ms (SD = 2609.92ms)
-- kebab-case: Mean = 5119.94ms (SD = 3691.98ms)
-
-Computer Science Background (CS) vs Non-CS:
-CS Participants:
-- camelCase: Mean = 3969.64ms (SD = 2113.22ms)
-- kebab-case: Mean = 4567.92ms (SD = 3290.78ms)
-
-Non-CS Participants:
-- camelCase: Mean = 5296.82ms (SD = 3376.99ms)
-- kebab-case: Mean = 6310.29ms (SD = 4330.11ms)
-
-These statistics indicate that:
-1. Participants generally performed faster with camelCase
-2. CS background correlates with faster response times in both styles
-3. Response time variability was higher for kebab-case
 
 
 \begin{table}[h]
@@ -189,7 +175,6 @@ These statistics indicate that:
 \end{table}
 
 
-
 \begin{table}[h]
     \centering
     \caption{Descriptive Statistics}
@@ -207,16 +192,6 @@ These statistics indicate that:
 \end{table}
 
 \subsection{Inferential Statistics}
-
-A paired samples t-test was conducted to compare response times between the two styles:
-- t(359) = 3.515, p = 1.000
-- Cohen's d = 0.185 (SE = 0.064)
-
-The analysis reveals:
-1. The difference in response times is statistically significant
-2. The effect size (Cohen's d = 0.185) indicates a small practical difference
-3. The results do not support our alternative hypothesis that kebab-case would lead to faster recognition
-
 
 \begin{table}[h]
     \centering
@@ -237,37 +212,24 @@ The analysis reveals:
 
 
 \section{Discussion}
+
 \subsection{Compare Hypotheses with Results}
-Contrary to our initial hypothesis, the results show that participants were generally faster at recognizing camelCase identifiers compared to kebab-case. The average difference of approximately 677ms (15.2%) favors camelCase, though with notable individual variation. This finding challenges our initial assumption that explicit separators (as in kebab-case) would facilitate faster recognition.
+The null hypothesis is supported as no significant advantage was found for kebab-case over camelCase.
 
 \subsection{Limitations and Threats to Validity}
-Internal Validity Threats:
-1. Learning Effects: Despite randomization, participants may have developed pattern recognition strategies during the experiment
-2. Fatigue Effects: The 20-question format may have induced fatigue
-3. Platform Variations: Different devices and browsers may have affected timing precision
-
-External Validity Threats:
-1. Participant Pool: The sample size (n=36) may limit generalizability
-2. Artificial Context: The experimental setting differs from real-world code reading
-3. Limited Identifier Complexity: Test cases may not fully represent real-world identifier complexity
+\begin{itemize}
+    \item Small sample size may limit generalizability.
+    \item Variations in user familiarity with case styles could affect results.
+\end{itemize}
 
 \subsection{Conclusions}
-This study provides evidence that:
-1. camelCase identifiers were recognized more quickly than kebab-case identifiers
-2. Programming experience significantly influences identifier recognition speed
-3. The effect of naming convention on recognition speed, while statistically significant, is relatively small
-
-These findings suggest that contrary to natural language reading patterns, camelCase may offer slight advantages for code identifier recognition. However, the practical significance of these differences is modest enough that other factors (such as team conventions or language standards) may be more important in choosing a naming convention.
-
-Future research could explore:
-1. More complex identifier patterns
-2. Extended reading tasks beyond single identifier recognition
-3. Integration with actual programming tasks
-
+Case style does not significantly impact response time or accuracy. Future research could explore larger samples or different demographics.
 
 \section{Appendix}
-
 \subsection{Reproduction Package}
+
+// todo davide aggiungere link
+// todo davide scrivere il readme
 
 
 \end{document}
