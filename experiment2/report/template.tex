@@ -14,7 +14,7 @@
 
 
 \setassignment
-\setduedate{Monday, 19 December 2024, 06:00 PM}
+\setduedate{Thursday, 19 December 2024, 06:00 PM}
 
 \serieheader{Experimentation and Evaluation}{2024}{\textbf{Students:} Davide Frova, Costanza Rodriguez Gavazzi}{}{Project 2}{}
 \newline
@@ -36,7 +36,7 @@ In this study, we conducted a controlled experiment to compare response times fo
 \section{Method}
 
 \subsection{Variables}
-\subsubsection{Independent Variable} 
+\subsubsection{Independent Variable}
 \textbf{Case Style}: \texttt{camelCase}, \texttt{kebab-case}
 
 \subsubsection{Dependent Variables}
@@ -68,7 +68,21 @@ Within-Subject Design: Participants experienced both case styles in random order
 \textbf{Programming background}: 25 participants had programming experience, 11 did not.
 
 \subsection{Apparatus and Materials}
-Web app built with Next.js, React, and TypeScript, deployed on Vercel. //todo davide
+\textbf{Web App}: A custom web application was used to present the questions and record response times. The app was designed to be simple and intuitive, with a clean interface to minimize distractions. \\
+It was developed using the framework Next.js, which provided an easy and fast way to create a web application with React that met our requirements.
+We also took care of the responsiveness of the app, so that it could be used on both desktop and mobile devices. This was possible thanks to the styling and layout system provided by Material UI. \\
+The app was hosted on the service Vercel, which allowed us to easily deploy and share the experiment with participants without any expenses. \\
+We think that deploying the app on Vercel was a good choice, as it allowed us to easily share the URL to the experiment with anyone just by sending a link. \\
+The link is the following: \url{https://code-comprehension.vercel.app} \\\\
+\textbf{Data Persistence}: The app stored the data in a MongoDB database, which allowed us to easily export the data in CSV and JSON format for further analysis.
+We used the free tier of MongoDB Atlas, which was sufficient for our needs and easy to configure with Next.js and Vercel. \\\\
+Here is an example of the interface of the web app while asking the user a question:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{./figures/question_example.png}
+    \caption{Web App Interface}
+    \label{fig:webapp}
+\end{figure}
 
 \subsection{Procedure}
 After reading a brief explanation of the experiment participants were asked to:
@@ -100,9 +114,9 @@ These results are produced using a Jupyter Notebook with Python and JASP.
         \caption{Correct Answers for \texttt{camelCase} with Programming Background}
         \label{fig:correct_camel_background}
     \end{minipage}
-    
-    \vspace{0.5cm} 
-    
+
+    \vspace{0.5cm}
+
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{./figures/correct_kebab_noBack.png}
@@ -167,7 +181,7 @@ Overall, while both naming conventions were readable, \texttt{camelCase} seems t
     \resizebox{\textwidth}{!}{
         \begin{tabular}{rrrrrrrr}
             \toprule
-                       & Mean       & Std. Deviation & Minimum   & Maximum     & 25th percentile & 50th percentile & 75th percentile \\
+                                & Mean       & Std. Deviation & Minimum   & Maximum     & 25th percentile & 50th percentile & 75th percentile \\
             \cmidrule[0.4pt]{1-8}
             \texttt{camelCase}  & $4442.718$ & $2609.916$     & $150.000$ & $26341.000$ & $2734.000$      & $3904.000$      & $5522.000$      \\
             \texttt{kebab-case} & $5119.937$ & $3691.977$     & $497.000$ & $39951.000$ & $3209.500$      & $4319.000$      & $5624.000$      \\
@@ -186,7 +200,7 @@ Table \ref{tab:all}, which includes all participants, shows that the average res
     {\resizebox{\textwidth}{!}{
             \begin{tabular}{lrrrrrrrr}
                 \toprule
-                              &            & Mean       & Std. Deviation & Minimum   & Maximum     & 25th percentile & 50th percentile & 75th percentile \\
+                              &                     & Mean       & Std. Deviation & Minimum   & Maximum     & 25th percentile & 50th percentile & 75th percentile \\
                 \cmidrule[0.4pt]{1-9}
                 elapsed\_time & \texttt{camelCase}  & $3969.640$ & $2113.221$     & $150.000$ & $15059.000$ & $2548.250$      & $3511.000$      & $4987.750$      \\
                               & \texttt{kebab-case} & $4567.916$ & $3290.778$     & $328.000$ & $39951.000$ & $3007.250$      & $4007.500$      & $5118.750$      \\
@@ -196,7 +210,7 @@ Table \ref{tab:all}, which includes all participants, shows that the average res
     }
 \end{table}
 
-In Table \ref{tab:bg}, participants with programming experience appear to respond faster on average. For \texttt{camelCase}, the mean response time is 3969 ms, while \texttt{kebab-case} shows a higher mean of 4567 ms. This may suggest that \texttt{camelCase} could be slightly easier or quicker to process for programmers. The smaller standard deviation for \texttt{camelCase} (2113 ms) compared to \texttt{kebab-case} (3290 ms) indicates more consistent response times, in line with the trends for all participants. 
+In Table \ref{tab:bg}, participants with programming experience appear to respond faster on average. For \texttt{camelCase}, the mean response time is 3969 ms, while \texttt{kebab-case} shows a higher mean of 4567 ms. This may suggest that \texttt{camelCase} could be slightly easier or quicker to process for programmers. The smaller standard deviation for \texttt{camelCase} (2113 ms) compared to \texttt{kebab-case} (3290 ms) indicates more consistent response times, in line with the trends for all participants.
 \\
 
 \begin{table}[h!]
@@ -206,7 +220,7 @@ In Table \ref{tab:bg}, participants with programming experience appear to respon
     { \resizebox{\textwidth}{!}{
             \begin{tabular}{lrrrrrrrr}
                 \toprule
-                              &            & Mean       & Std. Deviation & Minimum    & Maximum     & 25th percentile & 50th percentile & 75th percentile \\
+                              &                     & Mean       & Std. Deviation & Minimum    & Maximum     & 25th percentile & 50th percentile & 75th percentile \\
                 \cmidrule[0.4pt]{1-9}
                 elapsed\_time & \texttt{camelCase}  & $5296.818$ & $3376.998$     & $1744.000$ & $26341.000$ & $3200.250$      & $4419.500$      & $6334.250$      \\
                               & \texttt{kebab-case} & $6310.291$ & $4330.106$     & $1771.000$ & $31522.000$ & $3637.000$      & $4952.500$      & $7584.250$      \\
@@ -230,7 +244,7 @@ Overall this indicates that \texttt{camelCase} seems to be faster than \texttt{k
     {
         \begin{tabular}{lrrrrrrr}
             \toprule
-            Measure 1  &   & Measure 2 & t       & df    & p       & Cohen's d & SE Cohen's d                                                             \\
+            Measure 1           &   & Measure 2          & t       & df    & p       & Cohen's d & SE Cohen's d                                                             \\
             \cmidrule[0.4pt]{1-8}
             \texttt{kebab-case} & - & \texttt{camelCase} & $3.515$ & $359$ & $1.000$ & $0.185$   & $0.064$                                                                  \\
             \bottomrule
@@ -251,7 +265,7 @@ The results support the null hypothesis: there was no significant difference bet
 
 For participants with programming experience, the mean response time for \texttt{camelCase} was about 600 ms faster than for \texttt{kebab-case}. Non-programmers showed a larger descriptive difference of around 1000 ms, with \texttt{camelCase} being faster. However, the inferential statistics suggest these differences could be due to random variation, as the effect size was small. Furthermore, we observed that non programmers were more accurate than programmers, which could be due to the fact that they took more time to answer.
 \subsection{Implications}
-While \texttt{camelCase} showed a slight advantage in speed and consistency, the lack of statistical significance means that neither style can be declared superior for reading comprehension tasks. This is consistent with the idea that naming conventions are mainly a matter of preference, familiarity or other factors. 
+While \texttt{camelCase} showed a slight advantage in speed and consistency, the lack of statistical significance means that neither style can be declared superior for reading comprehension tasks. This is consistent with the idea that naming conventions are mainly a matter of preference, familiarity or other factors.
 
 \subsection{Limitations and Threats to Validity}
 This study has several limitations:
@@ -268,9 +282,21 @@ The findings indicate that both \texttt{camelCase} and \texttt{kebab-case} are h
 
 \section{Appendix}
 \subsection{Reproduction Package}
+All the code and data used in this study is available on GitHub at:
+\\
+\url{https://github.com/costanza1234/USI-Exp-Eval-24/tree/main/experiment2}
+\\
+The github repository contains the following elements:
+\begin{itemize}
+    \item \texttt{report/}: This report in LaTeX format.
+    \item \texttt{results/}: Contains the raw and processed data from the experiment and the analysis.ipynb file used to analyze the data.
+          In particular, the \texttt{results/code-comprehension.runs.csv} and \texttt{results/code-comprehension.runs.json} files contain the raw data exported from the MongoDB database,
+          they are provided in both CSV and JSON format.
+          \\
+          The \texttt{results/questions.json} file contains the questions used in the experiment, they are divided in two categories: \texttt{camelCase} and \texttt{kebab-case}.
+          Foreach question we have the \texttt{identifier} and the \texttt{distractors}.
+    \item \texttt{code-comprehension/}: Is a git submodule that contains the code for the web app used in the experiment.
+\end{itemize}
 
-// todo davide aggiungere link
-// todo davide scrivere il readme
-
-
+The link to the web app is the following: \url{https://code-comprehension.vercel.app}
 \end{document}
